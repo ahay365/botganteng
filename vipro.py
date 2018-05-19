@@ -49,7 +49,7 @@ selfMessage ="""
 ╠➩〘Miclist〙
 ╠═════════════════════════
 ║   ☻By : ZeroZeveN☻
-║☻line.me/ti/p/ricco1311☻
+║ ☻line.me/ti/p/ricco1311☻
 ╚═════════════════════════
 """
 
@@ -69,7 +69,7 @@ botMessage ="""
 ╠➩〘Bot on/off〙
 ╠═════════════════════════
 ║   ☻By : ZeroZeveN☻
-║☻line.me/ti/p/ricco1311☻
+║ ☻line.me/ti/p/ricco1311☻
 ╚═════════════════════════
 """
 
@@ -108,7 +108,7 @@ mediaMessage ="""
 ╠➩〘En@id Text (Translate En Ke ID〙
 ╠═════════════════════════
 ║   ☻By : ZeroZeveN☻
-║☻line.me/ti/p/ricco1311☻
+║ ☻line.me/ti/p/ricco1311☻
 ╚═════════════════════════
 """
 
@@ -143,7 +143,7 @@ groupMessage ="""
 ╠➩〘Urlgroup Image〙
 ╠═════════════════════════
 ║   ☻By : ZeroZeveN☻
-║☻line.me/ti/p/ricco1311☻
+║ ☻line.me/ti/p/ricco1311☻
 ╚═════════════════════════
 """
 vip="uda936836a9869eb86ec8ab992a4e8979"
@@ -162,7 +162,7 @@ setMessage ="""
 ╠➩〘Simisimi on/off〙
 ╠═════════════════════════
 ║   ☻By : ZeroZeveN☻
-║☻line.me/ti/p/ricco1311☻
+║ ☻line.me/ti/p/ricco1311☻
 ╚═════════════════════════
 """
 
@@ -181,7 +181,7 @@ creatorMessage ="""
 ╠➩〘Turn off〙
 ╠═════════════════════════
 ║   ☻By : ZeroZeveN☻
-║☻line.me/ti/p/ricco1311☻
+║ ☻line.me/ti/p/ricco1311☻
 ╚═════════════════════════
 """
 
@@ -222,7 +222,7 @@ adminMessage ="""
 ╠➩〘Responkick on/off〙
 ╠═════════════════════════
 ║   ☻By : ZeroZeveN☻
-║☻line.me/ti/p/ricco1311☻
+║ ☻line.me/ti/p/ricco1311☻
 ╚═════════════════════════
 """
 
@@ -243,7 +243,7 @@ helpMessage ="""
 ╠➩〘Status〙
 ╠═════════════════════════
 ║   ☻By : ZeroZeveN☻
-║☻line.me/ti/p/ricco1311☻
+║ ☻line.me/ti/p/ricco1311☻
 ╚═════════════════════════
 """
 
@@ -926,14 +926,14 @@ def bot(op):
                                   vipro.sendMessage(msg)                                
                                   break  
                                   
-        if op.type == 25:
+        if op.type == 26:
             msg = op.message                                  
                               
             if msg.text in ["Bot on"]:
                 wait["Bot"] = True
                 vipro.sendText(msg.to,"Bot Sudah On Kembali.")  
 
-        if op.type == 25:
+        if op.type == 26:
           if wait["Bot"] == True:    
             msg = op.message
             
