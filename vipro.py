@@ -926,14 +926,14 @@ def bot(op):
                                   vipro.sendMessage(msg)                                
                                   break  
                                   
-        if op.type == 26:
+        if op.type == 25:
             msg = op.message                                  
                               
             if msg.text in ["Bot on"]:
                 wait["Bot"] = True
                 vipro.sendText(msg.to,"Bot Sudah On Kembali.")  
 
-        if op.type == 26:
+        if op.type == 25:
           if wait["Bot"] == True:    
             msg = op.message
             
