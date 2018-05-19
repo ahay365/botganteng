@@ -19,6 +19,14 @@ print "Vipro-Login Success\n\n=====[Sukses Login]====="
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
+#vipro.login(qr=True)
+vipro.login(token='EpJgyNvzK8xQp88I04t9.2PnOnQMgNRHUYkUzkK6jEq./p92mOc1BPmafZPSgTcw4mkpBeT/czsWHBLRbK7Aewc=')
+vipro.loginResult()
+print "Vipro-Login Success\n\n=====[Sukses Login]====="
+
+reload(sys)
+sys.setdefaultencoding('utf-8')
+
 
 selfMessage ="""
 ╔═════════════════════════
@@ -49,8 +57,8 @@ selfMessage ="""
 ╠➩〘Micdel @〙
 ╠➩〘Miclist〙
 ╠═════════════════════════
-║    ╩╩╦╩╩╦ By : ZeroZeveN  ╩╩╦╩╩╦
-║╩╩╦╩╩╦ line.me/ti/p/ricco1311  ╩╩╦╩╩╦
+║   ☻By : ZeroZeveN☻
+║☻line.me/ti/p/ricco1311☻
 ╚═════════════════════════
 """
 
@@ -69,8 +77,8 @@ botMessage ="""
 ╠➩〘@bye〙
 ╠➩〘Bot on/off〙
 ╠═════════════════════════
-║   ╩╩╦╩╩╦ By : ZeroZeveN  ╩╩╦╩╩╦
-║╩╩╦╩╩╦ line.me/ti/p/ricco1311  ╩╩╦╩╩╦
+║   ☻By : ZeroZeveN☻
+║☻line.me/ti/p/ricco1311☻
 ╚═════════════════════════
 """
 
@@ -108,8 +116,8 @@ mediaMessage ="""
 ╠➩〘Id@th Text (Translate ID Ke TH〙
 ╠➩〘En@id Text (Translate En Ke ID〙
 ╠═════════════════════════
-║   ╩╩╦╩╩╦ By : ZeroZeveN  ╩╩╦╩╩╦
-║╩╩╦╩╩╦ line.me/ti/p/ricco1311  ╩╩╦╩╩╦
+║   ☻By : ZeroZeveN☻
+║☻line.me/ti/p/ricco1311☻
 ╚═════════════════════════
 """
 
@@ -143,8 +151,8 @@ groupMessage ="""
 ╠➩〘Getgroup image〙
 ╠➩〘Urlgroup Image〙
 ╠═════════════════════════
-║   ╩╩╦╩╩╦ By : ZeroZeveN  ╩╩╦╩╩╦
-║╩╩╦╩╩╦ line.me/ti/p/ricco1311  ╩╩╦╩╩╦
+║   ☻By : ZeroZeveN☻
+║☻line.me/ti/p/ricco1311☻
 ╚═════════════════════════
 """
 vip="uda936836a9869eb86ec8ab992a4e8979"
@@ -162,8 +170,8 @@ setMessage ="""
 ╠➩〘Sticker on〙
 ╠➩〘Simisimi on/off〙
 ╠═════════════════════════
-║   ╩╩╦╩╩╦ By : ZeroZeveN  ╩╩╦╩╩╦
-║╩╩╦╩╩╦ line.me/ti/p/ricco1311  ╩╩╦╩╩╦
+║   ☻By : ZeroZeveN☻
+║☻line.me/ti/p/ricco1311☻
 ╚═════════════════════════
 """
 
@@ -181,8 +189,8 @@ creatorMessage ="""
 ╠➩〘Bot restart〙
 ╠➩〘Turn off〙
 ╠═════════════════════════
-║   ╩╩╦╩╩╦ By : ZeroZeveN  ╩╩╦╩╩╦
-║╩╩╦╩╩╦ line.me/ti/p/ricco1311  ╩╩╦╩╩╦
+║   ☻By : ZeroZeveN☻
+║☻line.me/ti/p/ricco1311☻
 ╚═════════════════════════
 """
 
@@ -222,8 +230,8 @@ adminMessage ="""
 ╠➩〘Respon3 on/off〙
 ╠➩〘Responkick on/off〙
 ╠═════════════════════════
-║   ╩╩╦╩╩╦ By : ZeroZeveN  ╩╩╦╩╩╦
-║╩╩╦╩╩╦ line.me/ti/p/ricco1311  ╩╩╦╩╩╦
+║   ☻By : ZeroZeveN☻
+║☻line.me/ti/p/ricco1311☻
 ╚═════════════════════════
 """
 
@@ -243,8 +251,8 @@ helpMessage ="""
 ╠➩〘Speed test〙
 ╠➩〘Status〙
 ╠═════════════════════════
-║   ╩╩╦╩╩╦ By : ZeroZeveN  ╩╩╦╩╩╦
-║╩╩╦╩╩╦ line.me/ti/p/ricco1311  ╩╩╦╩╩╦
+║   ☻By : ZeroZeveN☻
+║☻line.me/ti/p/ricco1311☻
 ╚═════════════════════════
 """
 
