@@ -16,6 +16,12 @@ vipro.login(token='EpJgyNvzK8xQp88I04t9.2PnOnQMgNRHUYkUzkK6jEq./p92mOc1BPmafZPSg
 vipro.loginResult()
 print "Vipro-Login Success\n\n=====[Sukses Login]====="
 
+vipro = LINETCR.LINE()
+#vipro.login(qr=True)
+vipro.login(token='EpJgyNvzK8xQp88I04t9.2PnOnQMgNRHUYkUzkK6jEq./p92mOc1BPmafZPSgTcw4mkpBeT/czsWHBLRbK7Aewc=')
+vipro.loginResult()
+print "Vipro-Login Success\n\n=====[Sukses Login]====="
+
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
