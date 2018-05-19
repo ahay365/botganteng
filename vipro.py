@@ -11,14 +11,14 @@ from gtts import gTTS
 import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,os,subprocess,requests,tempfile
 
 vipro = LINETCR.LINE()
-#vipro.login(qr=True)
 vipro.login(token='EpJgyNvzK8xQp88I04t9.2PnOnQMgNRHUYkUzkK6jEq./p92mOc1BPmafZPSgTcw4mkpBeT/czsWHBLRbK7Aewc=')
 vipro.loginResult()
 
-vipro.login(token='EpJgyNvzK8xQp88I04t9.2PnOnQMgNRHUYkUzkK6jEq./p92mOc1BPmafZPSgTcw4mkpBeT/czsWHBLRbK7Aewc=')
-vipro.loginResult()
+vipro2 = LINETCR.LINE()
+vipro2.login(token='EpJgyNvzK8xQp88I04t9.2PnOnQMgNRHUYkUzkK6jEq./p92mOc1BPmafZPSgTcw4mkpBeT/czsWHBLRbK7Aewc=')
+vipro2.loginResult()
+
 print "Vipro-Login Success\n\n=====[Sukses Login]====="
-
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
@@ -251,9 +251,10 @@ helpMessage ="""
 """
 
 
-KAC=[vipro]
+KAC=[vipro,vipro2]
 mid = vipro.getProfile().mid
-Bots=[mid]
+vipro2mid = vipro2.getProfile().mid
+Bots=[mid,vipro2]
 Creator=["uda936836a9869eb86ec8ab992a4e8979"]
 admin=["uda936836a9869eb86ec8ab992a4e8979"]
 
