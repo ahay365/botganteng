@@ -49,8 +49,8 @@ selfMessage ="""
 ╠➩〘Micdel @〙
 ╠➩〘Miclist〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ line.me/ti/p/~gjxvipro 〽️
+║    ╩╩╦╩╩╦ By : ZeroZeveN  ╩╩╦╩╩╦
+║╩╩╦╩╩╦ line.me/ti/p/ricco1311  ╩╩╦╩╩╦
 ╚═════════════════════════
 """
 
@@ -69,8 +69,8 @@ botMessage ="""
 ╠➩〘@bye〙
 ╠➩〘Bot on/off〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ line.me/ti/p/~gjxvipro 〽️
+║   ╩╩╦╩╩╦ By : ZeroZeveN  ╩╩╦╩╩╦
+║╩╩╦╩╩╦ line.me/ti/p/ricco1311  ╩╩╦╩╩╦
 ╚═════════════════════════
 """
 
@@ -108,8 +108,8 @@ mediaMessage ="""
 ╠➩〘Id@th Text (Translate ID Ke TH〙
 ╠➩〘En@id Text (Translate En Ke ID〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ line.me/ti/p/~gjxvipro 〽️
+║   ╩╩╦╩╩╦ By : ZeroZeveN  ╩╩╦╩╩╦
+║╩╩╦╩╩╦ line.me/ti/p/ricco1311  ╩╩╦╩╩╦
 ╚═════════════════════════
 """
 
@@ -143,8 +143,8 @@ groupMessage ="""
 ╠➩〘Getgroup image〙
 ╠➩〘Urlgroup Image〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ line.me/ti/p/~gjxvipro 〽️
+║   ╩╩╦╩╩╦ By : ZeroZeveN  ╩╩╦╩╩╦
+║╩╩╦╩╩╦ line.me/ti/p/ricco1311  ╩╩╦╩╩╦
 ╚═════════════════════════
 """
 vip="uda936836a9869eb86ec8ab992a4e8979"
@@ -162,8 +162,8 @@ setMessage ="""
 ╠➩〘Sticker on〙
 ╠➩〘Simisimi on/off〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ line.me/ti/p/~gjxvipro 〽️
+║   ╩╩╦╩╩╦ By : ZeroZeveN  ╩╩╦╩╩╦
+║╩╩╦╩╩╦ line.me/ti/p/ricco1311  ╩╩╦╩╩╦
 ╚═════════════════════════
 """
 
@@ -181,8 +181,8 @@ creatorMessage ="""
 ╠➩〘Bot restart〙
 ╠➩〘Turn off〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ line.me/ti/p/~gjxvipro 〽️
+║   ╩╩╦╩╩╦ By : ZeroZeveN  ╩╩╦╩╩╦
+║╩╩╦╩╩╦ line.me/ti/p/ricco1311  ╩╩╦╩╩╦
 ╚═════════════════════════
 """
 
@@ -222,8 +222,8 @@ adminMessage ="""
 ╠➩〘Respon3 on/off〙
 ╠➩〘Responkick on/off〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ line.me/ti/p/~gjxvipro 〽️
+║   ╩╩╦╩╩╦ By : ZeroZeveN  ╩╩╦╩╩╦
+║╩╩╦╩╩╦ line.me/ti/p/ricco1311  ╩╩╦╩╩╦
 ╚═════════════════════════
 """
 
@@ -243,8 +243,8 @@ helpMessage ="""
 ╠➩〘Speed test〙
 ╠➩〘Status〙
 ╠═════════════════════════
-║             💠 By : Vipro 💠
-║    〽️ line.me/ti/p/~gjxvipro 〽️
+║   ╩╩╦╩╩╦ By : ZeroZeveN  ╩╩╦╩╩╦
+║╩╩╦╩╩╦ line.me/ti/p/ricco1311  ╩╩╦╩╩╦
 ╚═════════════════════════
 """
 
@@ -286,7 +286,7 @@ wait = {
     'sticker':False,  
     'timeline':True,
     "Timeline":True,
-    "comment":"Bot Auto Like ©By : Vipro\nContact Me : 👉 line.me/ti/p/~gjxvipro",    
+    "comment":"Bot Auto Like ©By : Vipro\nContact Me : 👉 line.me/ti/p/ricco1311",    
     "commentOn":True,
     "commentBlack":{},
     "message":"Thx For Add Me (^_^)\nInvite Me To Your Group ヘ(^_^)ヘ",    
@@ -2369,7 +2369,7 @@ def bot(op):
 		gid = vipro.getGroupIdsJoined()
 		if msg.from_ in Creator:
 		    for i in gid:
-			vipro.sendText(i,"=======[BROADCAST]=======\n\n"+bc+"\n\nContact Me : line.me/ti/p/~nad_nad.")
+			vipro.sendText(i,"=======[BROADCAST]=======\n\n"+bc+"\n\nContact Me : line.me/ti/p/ricco1311.")
 		    vipro.sendText(msg.to,"Success BC BosQ")
 		else:
 		    vipro.sendText(msg.to,"Khusus Admin")
