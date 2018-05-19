@@ -14,10 +14,6 @@ vipro = LINETCR.LINE()
 vipro.login(token='EpJgyNvzK8xQp88I04t9.2PnOnQMgNRHUYkUzkK6jEq./p92mOc1BPmafZPSgTcw4mkpBeT/czsWHBLRbK7Aewc=')
 vipro.loginResult()
 
-vipro2 = LINETCR.LINE()
-vipro2.login(token='EpJgyNvzK8xQp88I04t9.2PnOnQMgNRHUYkUzkK6jEq./p92mOc1BPmafZPSgTcw4mkpBeT/czsWHBLRbK7Aewc=')
-vipro2.loginResult()
-
 print "Vipro-Login Success\n\n=====[Sukses Login]====="
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -251,10 +247,9 @@ helpMessage ="""
 """
 
 
-KAC=[vipro,vipro2]
+KAC=[vipro]
 mid = vipro.getProfile().mid
-vipro2mid = vipro2.getProfile().mid
-Bots=[mid,vipro2]
+Bots=[mid]
 Creator=["uda936836a9869eb86ec8ab992a4e8979"]
 admin=["uda936836a9869eb86ec8ab992a4e8979"]
 
@@ -592,15 +587,15 @@ def bot(op):
                                 if " " in Name:
                                     nick = Name.split(' ')
                                     if len(nick) == 2:
-                                        vipro.sendText(op.param1, "Haii " + "☞ " + Name + " ☜" + "\nNgintip Aja Niih. . .\nChat Kek Idiih (-__-)   ")
+                                        vipro.sendText(op.param1, "Haii " + "☞ " + Name + " ☜" + "\nJangan ngintip aja kak\nPm Aku dong (-__-)   ")
                                         time.sleep(0.2)
                                         summon(op.param1,[op.param2])
                                     else:
-                                        vipro.sendText(op.param1, "Haii " + "☞ " + Name + " ☜" + "\nBetah Banget Jadi Penonton. . .\nChat Napa (-__-)   ")
+                                        vipro.sendText(op.param1, "Haii " + "☞ " + Name + " ☜" + "\nBetah Banget Jadi Penonton\nNtar dimarahin Bu Satpam Loh (-__-)   ")
                                         time.sleep(0.2)
                                         summon(op.param1,[op.param2])
                                 else:
-                                    vipro.sendText(op.param1, "Haii " + "☞ " + Name + " ☜" + "\nNgapain Kak Ngintip Aja???\nSini Gabung Chat...   ")
+                                    vipro.sendText(op.param1, "Haii " + "☞ " + Name + " ☜" + "\nNgapain Kak Ngintip Aja???\nSini Aku Cipok...   ")
                                     time.sleep(0.2)
                                     summon(op.param1,[op.param2])
                         else:
@@ -874,7 +869,7 @@ def bot(op):
                  if wait["detectMention"] == True:
                      contact = vipro.getContact(msg.from_)
                      cName = contact.displayName
-                     balas = ["Dont Tag!! Lagi Sibuk",cName + " Ngapain Ngetag?",cName + " Nggak Usah Tag-Tag! Kalo Penting Langsung Pc Aja","Dia Lagi Off", cName + " Kenapa Tag Saya?","Dia Lagi Tidur\nJangan Di Tag " + cName, "Jangan Suka Tag Gua " + cName, "Kamu Siapa " + cName + "?", "Ada Perlu Apa " + cName + "?","Woii " + cName + " Jangan Ngetag, Riibut!"]
+                     balas = ["Dont Tag!! Lagi Sibuk Anu",cName + " Ngapain Ngetag? Mau Dicipok?",cName + " Nggak Usah Tag-Tag! Kalo Penting Langsung Japri Aja","Dia Lagi Nanggung", cName + " Kenapa Tag Saya?","Lagi Tidur\nJangan Di Tag " + cName, "Jangan Suka Tag Gue " + cName, "Kamu Siapa " + cName + "?", "Ada Perlu Apa " + cName + "?","Woii " + cName + " Jangan Ngetag, lagi Modol!"]
                      ret_ = random.choice(balas)
                      name = re.findall(r'@(\w+)', msg.text)
                      mention = ast.literal_eval(msg.contentMetadata['MENTION'])
