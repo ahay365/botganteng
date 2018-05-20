@@ -20,7 +20,7 @@ sys.setdefaultencoding('utf-8')
 
 selfMessage ="""
 ╔═════════════════════════
-║            ☆☞ S E L F ☜☆
+║   ۩۞۩ S E L F ۩۞۩ 
 ╠═════════════════════════
 ╠➩〘Hi〙
 ╠➩〘Me〙
@@ -47,14 +47,14 @@ selfMessage ="""
 ╠➩〘Micdel @〙
 ╠➩〘Miclist〙
 ╠═════════════════════════
-║   ☻By : ZeroZeveN☻
-║ ☻line.me/ti/p/ricco1311☻
+║   ☢ By : ZeroZeveN ☢
+║☢line.me/ti/p/ricco1311☢
 ╚═════════════════════════
 """
 
 botMessage ="""
 ╔═════════════════════════
-║             ☆☞ B O T ☜☆
+║   ۩۞۩ B O T ۩۞۩
 ╠═════════════════════════
 ╠➩〘Absen〙
 ╠➩〘Respon〙
@@ -67,14 +67,14 @@ botMessage ="""
 ╠➩〘@bye〙
 ╠➩〘Bot on/off〙
 ╠═════════════════════════
-║   ☻By : ZeroZeveN☻
-║ ☻line.me/ti/p/ricco1311☻
+║   ☢ By : ZeroZeveN ☢
+║☢line.me/ti/p/ricco1311☢
 ╚═════════════════════════
 """
 
 mediaMessage ="""
 ╔═════════════════════════
-║           ☆☞ M E D I A ☜☆
+║   ۩۞۩ M E D I A ۩۞۩
 ╠═════════════════════════
 ╠➩〘Gift〙
 ╠➩〘Giftbycontact〙
@@ -106,14 +106,14 @@ mediaMessage ="""
 ╠➩〘Id@th Text (Translate ID Ke TH〙
 ╠➩〘En@id Text (Translate En Ke ID〙
 ╠═════════════════════════
-║   ☻By : ZeroZeveN☻
-║ ☻line.me/ti/p/ricco1311☻
+║   ☢ By : ZeroZeveN ☢
+║☢line.me/ti/p/ricco1311☢
 ╚═════════════════════════
 """
 
 groupMessage ="""
 ╔═════════════════════════
-║           ☆☞ G R O U P ☜☆
+║   ۩۞۩ G R O U P ۩۞۩
 ╠═════════════════════════
 ╠➩〘Welcome〙
 ╠➩〘Say welcome〙
@@ -141,15 +141,15 @@ groupMessage ="""
 ╠➩〘Getgroup image〙
 ╠➩〘Urlgroup Image〙
 ╠═════════════════════════
-║   ☻By : ZeroZeveN☻
-║ ☻line.me/ti/p/ricco1311☻
+║   ☢ By : ZeroZeveN ☢
+║☢line.me/ti/p/ricco1311☢
 ╚═════════════════════════
 """
 vip="uda936836a9869eb86ec8ab992a4e8979"
 
 setMessage ="""
 ╔═════════════════════════
-║              ☆☞ S E T ☜☆
+║   ۩۞۩ S E T ۩۞۩
 ╠═════════════════════════
 ╠➩〘Notif on/off〙
 ╠➩〘Mimic on/off〙
@@ -160,14 +160,14 @@ setMessage ="""
 ╠➩〘Sticker on〙
 ╠➩〘Simisimi on/off〙
 ╠═════════════════════════
-║   ☻By : ZeroZeveN☻
-║ ☻line.me/ti/p/ricco1311☻
+║   ☢ By : ZeroZeveN ☢
+║☢line.me/ti/p/ricco1311☢
 ╚═════════════════════════
 """
 
 creatorMessage ="""
 ╔═════════════════════════
-║         ☆☞ C R E A T O R ☜☆
+║   ۩۞۩ C R E A T O R ۩۞۩
 ╠═════════════════════════
 ╠➩〘Crash〙
 ╠➩〘Kickall〙
@@ -179,14 +179,14 @@ creatorMessage ="""
 ╠➩〘Bot restart〙
 ╠➩〘Turn off〙
 ╠═════════════════════════
-║   ☻By : ZeroZeveN☻
-║ ☻line.me/ti/p/ricco1311☻
+║   ☢ By : ZeroZeveN ☢
+║☢line.me/ti/p/ricco1311☢
 ╚═════════════════════════
 """
 
 adminMessage ="""
 ╔═════════════════════════
-║            ☆☞ A D M I N ☜☆
+║   ۩۞۩ A D M I N ۩۞۩
 ╠═════════════════════════
 ╠➩〘Allprotect on/off〙
 ╠➩〘Ban〙
@@ -220,14 +220,14 @@ adminMessage ="""
 ╠➩〘Respon3 on/off〙
 ╠➩〘Responkick on/off〙
 ╠═════════════════════════
-║   ☻By : ZeroZeveN☻
-║ ☻line.me/ti/p/ricco1311☻
+║   ☢ By : ZeroZeveN ☢
+║☢line.me/ti/p/ricco1311☢
 ╚═════════════════════════
 """
 
 helpMessage ="""
 ╔═════════════════════════
-║              ☆☞ H E L P ☜☆
+║   ۩۞۩ H E L P ۩۞۩
 ╠═════════════════════════
 ╠➩〘Help self〙
 ╠➩〘Help bot〙
@@ -241,8 +241,8 @@ helpMessage ="""
 ╠➩〘Speed test〙
 ╠➩〘Status〙
 ╠═════════════════════════
-║   ☻By : ZeroZeveN☻
-║ ☻line.me/ti/p/ricco1311☻
+║   ☢ By : ZeroZeveN ☢
+║☢line.me/ti/p/ricco1311☢
 ╚═════════════════════════
 """
 
