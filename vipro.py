@@ -47,8 +47,8 @@ selfMessage ="""
 ╠➩〘Micdel @〙
 ╠➩〘Miclist〙
 ╠═════════════════════════
-║   ☢ By : ZeroZeveN ☢
-║☢line.me/ti/p/ricco1311☢
+║     ☢ By : ZeroZeveN ☢
+║  ☢line.me/ti/p/ricco1311☢
 ╚═════════════════════════
 """
 
@@ -67,8 +67,8 @@ botMessage ="""
 ╠➩〘@bye〙
 ╠➩〘Bot on/off〙
 ╠═════════════════════════
-║   ☢ By : ZeroZeveN ☢
-║☢line.me/ti/p/ricco1311☢
+║     ☢ By : ZeroZeveN ☢
+║  ☢line.me/ti/p/ricco1311☢
 ╚═════════════════════════
 """
 
@@ -106,8 +106,8 @@ mediaMessage ="""
 ╠➩〘Id@th Text (Translate ID Ke TH〙
 ╠➩〘En@id Text (Translate En Ke ID〙
 ╠═════════════════════════
-║   ☢ By : ZeroZeveN ☢
-║☢line.me/ti/p/ricco1311☢
+║     ☢ By : ZeroZeveN ☢
+║  ☢line.me/ti/p/ricco1311☢
 ╚═════════════════════════
 """
 
@@ -141,8 +141,8 @@ groupMessage ="""
 ╠➩〘Getgroup image〙
 ╠➩〘Urlgroup Image〙
 ╠═════════════════════════
-║   ☢ By : ZeroZeveN ☢
-║☢line.me/ti/p/ricco1311☢
+║     ☢ By : ZeroZeveN ☢
+║  ☢line.me/ti/p/ricco1311☢
 ╚═════════════════════════
 """
 vip="uda936836a9869eb86ec8ab992a4e8979"
@@ -160,8 +160,8 @@ setMessage ="""
 ╠➩〘Sticker on〙
 ╠➩〘Simisimi on/off〙
 ╠═════════════════════════
-║   ☢ By : ZeroZeveN ☢
-║☢line.me/ti/p/ricco1311☢
+║     ☢ By : ZeroZeveN ☢
+║  ☢line.me/ti/p/ricco1311☢
 ╚═════════════════════════
 """
 
@@ -179,8 +179,8 @@ creatorMessage ="""
 ╠➩〘Bot restart〙
 ╠➩〘Turn off〙
 ╠═════════════════════════
-║   ☢ By : ZeroZeveN ☢
-║☢line.me/ti/p/ricco1311☢
+║     ☢ By : ZeroZeveN ☢
+║  ☢line.me/ti/p/ricco1311☢
 ╚═════════════════════════
 """
 
@@ -220,8 +220,8 @@ adminMessage ="""
 ╠➩〘Respon3 on/off〙
 ╠➩〘Responkick on/off〙
 ╠═════════════════════════
-║   ☢ By : ZeroZeveN ☢
-║☢line.me/ti/p/ricco1311☢
+║     ☢ By : ZeroZeveN ☢
+║  ☢line.me/ti/p/ricco1311☢
 ╚═════════════════════════
 """
 
@@ -241,8 +241,8 @@ helpMessage ="""
 ╠➩〘Speed test〙
 ╠➩〘Status〙
 ╠═════════════════════════
-║   ☢ By : ZeroZeveN ☢
-║☢line.me/ti/p/ricco1311☢
+║     ☢ By : ZeroZeveN ☢
+║  ☢line.me/ti/p/ricco1311☢
 ╚═════════════════════════
 """
 
@@ -1626,7 +1626,7 @@ def bot(op):
 		else:md+="╠➩❌ Auto Sider: Off\n"	
 		if wait["Simi"] == True: md+="╠➩✔️ Simisimi : On\n"
 		else:md+="╠➩❌ Simisimi: Off\n"		
-                vipro.sendText(msg.to,"╔═════════════════════════\n""║           ☆☞ S T A T U S ☜☆\n""╠═════════════════════════\n"+md+"╚═════════════════════════")
+                vipro.sendText(msg.to,"╔═════════════════════════\n""║         ۩۞۩ S T A T U S ۩۞۩\n""╠═════════════════════════\n"+md+"╚═════════════════════════")
 
 
             elif msg.text in ["Gift","gift"]:
