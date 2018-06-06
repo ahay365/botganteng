@@ -11,7 +11,7 @@ from gtts import gTTS
 import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,os,subprocess,requests,tempfile
 
 vipro = LINETCR.LINE()
-vipro.login(token='EtHJ3RIvXVOasggIg7N0.uFNiiDNnqAPm9Svxp3Sdqa.zo1QO26HuPB26diZl4wTdp8z488nEtk74ddJGio5Hq4=')
+vipro.login(token='EtoeSqIzDofnHZGCsNC0.uFNiiDNnqAPm9Svxp3Sdqa.k9tiVBO+thnD/NEqLHkpZM0I1TtsxFshvfAyzwdLjms=')
 vipro.loginResult()
 
 print "Vipro-Login Success\n\n=====[Sukses Login]====="
